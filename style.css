@@ -63,7 +63,7 @@ nav .dropdown-menu .nav-link:not(.blocsapp-special-menu .nav-link){color:rgba(0,
 -------------------------------------------------------------- */
 
 .bloc-fill-screen{
-	min-height:100vh;
+	/* min-height:100vh; */
 	display: flex;
 	flex-direction: column;
 	padding-top:20px;
