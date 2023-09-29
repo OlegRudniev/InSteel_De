@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>InSteel GmbH</title>
+  <style>
+    /* /* Стили для шапки / */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      background-color: #f1f1f1;
+      padding: 20px;
+      text-align: left;
+    }
+    /* / Стили для блока с выбором языка */ */
+    .language-selector {
+      top: 20px;
+      right: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Шапка -->
+  <div class="header">
+    <div class="language-selector">
+      <select id="language">
+        <option value="en">Germany</option>
+        <option value="ru">English</option>
+        <!-- Добавьте другие языки по необходимости -->
+      </select>
+    </div>
+    <img src="logo.png" alt="Логотип" width="50" height="50"> <!-- Вставьте свой логотип сюда -->
+    <h1>Название сайта</h1>
+  </div>
+
+  <!-- Основное содержимое -->
+  <div class="content">
+    <!-- Содержимое сайта -->
+  </div>
+
+  <!-- JavaScript для обработки переключения языка -->
+  <script>
+    document.getElementById('language').addEventListener('change', function() {
+      var selectedLanguage = this.value;
+      // Здесь можно добавить код для переключения языка
+      alert('Выбранный язык: ' + selectedLanguage);
+    });
+  </script>
+
+</body>
+</html>
