@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    -export DEPLOYPATH=/home/r116840/public_html/i-stl.de
+    -export DEPLOYPATH=/home/o118715/public_html/i-stl.de
     -/bin/cp -R * $DEPLOYPATH
