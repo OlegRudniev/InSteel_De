@@ -42,7 +42,25 @@
 					<nav class="navbar row navbar-light">
 						<div class="container-fluid">
 							<a class="navbar-brand ltc-1078 link-style" href="./"><img src="img/insteel-logo.jpeg" data-src="img/insteel-logo.jpeg" class="img-fluid mx-auto d-block mb-4 book-graphic lazyload" alt="placeholder image" width="220" height="200"></a>
+
+							<h1 id="datetime" style="height: 50px; width: 410px; background-color: white;"></h1>
+
+  <script>
+    function updateDateTime() {
+      var datetimeElement = document.getElementById('datetime');
+      var currentTime = new Date();
+      datetimeElement.innerText = currentTime.toLocaleString();
+    }
+
+    // Обновлять дату и время каждую секунду
+    setInterval(updateDateTime, 1000);
+
+    // Обновить дату и время при загрузке страницы
+    updateDateTime();
+  </script>
+							
 						</div>
+						
 					</nav>
 				</div>
 			</div>
@@ -56,36 +74,47 @@
 		<div class="row">
 			<div class="text-md-start col-lg-8 offset-lg-2 mb-5 text-start">
 				<h3 class="section-heading tc-2641">
-					Our services
+					Unsere Dienstleistungen / Our services
 				</h3>
-                <img src="img/blog-article-service-quality-management.webp" alt="">
+                <img src="img/blog-article-service-quality-management.webp" alt="photo control" style="height: 500px; width: 700px;">
 				<h4 class="mb-4 tc-3578 section-sub-heading primary-dot">
-                    1. Инспекционный контроль.
+                    1. Kontrolle von Qualität, Zustand, Quantität und Überprüfung von Dokumenten. / Control of quality, condition, quantity and verification of documents
 				</h4>
-                <h4>Мы предоставляем услуги для следующих областей промышленности:</h4>
+                <h4>Wir erbringen Dienstleistungen für folgende Branchen: / We provide services for the following industries:</h4>
                 <ul>
-                    <li>нефтегазовая</li>
-                    <li>горнодобывающая</li>
-                    <li>металлургическая</li>
-                    <li>химическая</li>
-                    <li>транспортная</li>
-                    <li>энергетическая</li>
+                    <li>Öl und Gas / oil and gas</li>
+                    <li>bergbau / mining</li>
+                    <li>metallurgisch / metallurgical</li>
+                    <li>chemisch / chemical</li>
+                    <li>transport / transport</li>
+                    <li>energie / energy</li>
                 </ul>
 				<p>
 
-В зависимости от типа оборудования мы можем предложить выполнение инспекции в следующем объеме:
-- Входной контроль материалов и комплектующих;
-- Контроль за изготовлением оборудования и его элементов на всех этапах производства (резка, сварка, механическая обработки, сборка и пр.);
-- Визуальный контроль, измерения, контроль проведения лабораторных испытаний и неразрушающего контроля;
-- Освидетельствование при приемо-сдаточных испытаниях;
-- Контроль маркировки, упаковки и отгрузки.
-В каждом случае мы разрабатываем программу инспекции на основании технических требований к изделию, иных требований Заказчика, учитывающих специфику его деятельности.
+Abhängig von der Art der Ausrüstung können wir Inspektionen in folgendem Umfang anbieten:
+- Eingangskontrolle von Materialien und Komponenten; <br>
+- Kontrolle über die Herstellung von Geräten und ihren Elementen in allen Produktionsstufen (Schneiden, Schweißen, Bearbeitung, Montage usw.); <br>
+- Sichtprüfung, Messungen, Kontrolle von Labortests und zerstörungsfreie Prüfung; <br>
+- Inspektion bei Abnahmetests; <br>
+- Kontrolle von Etikettierung, Verpackung und Versand. <br>
+In jedem Fall entwickeln wir ein Arbeitsprogramm basierend auf den technischen Anforderungen an das Produkt und anderen Anforderungen des Kunden unter Berücksichtigung der Besonderheiten seiner Aktivitäten. /
+<br>
+Depending on the type of equipment, we can offer inspection in the following scope: <br>
+ - Incoming inspection of materials and components; <br>
+  - Control over the manufacture of equipment and its elements at all stages of production (cutting, welding, machining, assembly, etc.); <br>
+   - Visual inspection, measurements, control of laboratory tests and non-destructive testing; - Inspection during acceptance tests; <br>
+    - Control of labeling, packaging and shipment. <br>
+	 In each case, we develop an inspection program based on the technical requirements for the product and other requirements of the Customer, taking into account the specifics of its activities.
+
 				</p>
-<h4>2.	Технические аудиты.</h4>
-<p>При планировании поставок материалов, оборудования или компонентов  необходимо иметь уверенность в том, что поставщик располагает реальными  производственными мощностями, оборудованием, специалистами, средствами  измерения и контроля, сертификатами и лицензиями, качество выпускаемой продукции соответствует нормативным требованиям.
-    Не надлежащий подход к выбору поставщиков приводит к срывам поставок,  задержкам в выполнении проектов и нарушениям функционирования бизнес- процессов.
-    Для исключения рисков срыва поставок мы предлагаем услуги по проведению  нашими специалистами технического аудита процесса производства перед  заключением договоров поставки.
-    Всесторонняя проверка и анализ, выполненные нашими специалистами, позволяют  получить достоверную информацию касательно технической готовности поставщика  изготовить материалы, оборудование или комплектующие в соответствии с  установленными требованиями.
+<h4>2.	Technische Audits. / Технические аудиты.</h4>
+<p>Bei der Planung der Lieferung von Materialien, Geräten oder Komponenten muss darauf geachtet werden, dass der Lieferant über tatsächliche Produktionskapazitäten, Geräte, Spezialisten, Mess- und Kontrollwerkzeuge, Zertifikate und Lizenzen verfügt und dass die Qualität der Produkte den gesetzlichen Anforderungen entspricht.
+	Ein unangemessener Ansatz bei der Lieferantenauswahl führt zu Lieferunterbrechungen, Verzögerungen bei der Projektabwicklung und Störungen von Geschäftsprozessen.
+	Um das Risiko von Lieferunterbrechungen auszuschließen, bieten wir unseren Spezialisten die Möglichkeit an, vor dem Abschluss von Lieferverträgen eine technische Prüfung des Produktionsprozesses durchzuführen.
+	Durch umfassende Tests und Analysen durch unsere Spezialisten erhalten wir zuverlässige Informationen über die technische Bereitschaft des Lieferanten, Materialien, Geräte oder Komponenten gemäß den festgelegten Anforderungen herzustellen. <br> / When planning the supply of materials, equipment or components, it is necessary to have confidence that the supplier has real production capacity, equipment, specialists, measurement and control tools, certificates and licenses, and that the quality of the products meets regulatory requirements.
+	An inappropriate approach to selecting suppliers leads to supply disruptions, delays in project completion and disruption of business processes.
+	To eliminate the risk of supply disruptions, we offer services for our specialists to conduct a technical audit of the production process before concluding supply contracts.
+	Comprehensive testing and analysis performed by our specialists allows us to obtain reliable information regarding the supplier’s technical readiness to manufacture materials, equipment or components in accordance with established requirements.
     </p>
 
 			</div>
@@ -98,14 +127,16 @@
 		<div class="row">
 			<div class="text-md-start col-lg-8 offset-lg-2 mb-5 text-start">
 				<h3 class="section-heading tc-2641">
-					Our geography
+					Unsere Geographie / Our geography
 				</h3>
-                <img src="img/1667292974_3-celes-club-p-geografiya-fon-krasivo-3.jpeg" alt="map">
+                <img src="img/1667292974_3-celes-club-p-geografiya-fon-krasivo-3.jpeg" alt="map" style="height: 500px; width: 700px;">
 				<p>
+					Unser Unternehmen ist auf allen Kontinenten der Erde vertreten. Seit der Gründung des Unternehmens unterhalten wir Partnerschaften in Ländern wie: Schweiz, Italien, USA, China, Indien, Algerien, Niederlande, Brasilien, Belgien, Usbekistan. <br>
+					Alle unsere Partner sind zertifizierte Inspektionsstellen und verfügen über umfassende Erfahrung in ihren Ländern. <br>
 
-                    Наша компания представлена на всех континентах планеты. С момента организации компании – мы имеем партнерство в таких странах, как: Швейцария, Италия, США, Китай, Индия, Алжир, Нидерланды, Бразилия, Бельгия, Узбекистан.
-
-                    Все наши партнеры являются сертифицированными органами по инспекции и имеют огромный опыт в своих странах.
+                    Our company is represented on all continents of the planet. Since the organization of the company, we have partnerships in countries such as: Switzerland, Italy, USA, China, India, Algeria, the Netherlands, Brazil, Belgium, Uzbekistan. <br>
+<br>
+                     All our partners are certified inspection bodies and have extensive experience in their countries.
                     
 				</p>
 
@@ -129,12 +160,12 @@
 	<div class="container bloc-md-lg bloc-md-md bloc-md">
 		<div class="row">
 			<div class="col text-center text-md-start">
-                <p>Office Location:
+                <p>Bürostandort / Office Location:
                     Falkenseer Chaussee 214a,
                     13589 Berlin,
-                    Germany
+                    Deutschland / Germany
                     </p>
-                <p>Phone: +49 176 623 15 784</p>
+                <p>Telefon / Phone: +49 176 623 15 784</p>
                 <p>E-mail: o.rudnev@ebfi.net</p>
 
 			</div>
