@@ -155,18 +155,35 @@ Depending on the type of equipment, we can offer inspection in the following sco
 	<div class="container bloc-md-lg bloc-md-md bloc-md">
 		<div class="row">
 			<div class="col text-center text-md-start">
-                <p style="color: aliceblue;">Office Location:
-                    Falkenseer Chaussee 214a,
-                    13589 Berlin,
+                <p style="color: aliceblue;">
+                    Insteel Engineers GmbH
+                    </p>
+				<p style="color: aliceblue;">
+					Falkenseer Chaussee 214a, <br>
+                    13589 Berlin, <br>
+                    Germany</p>
+                <p style="color: aliceblue;">Phone: +49 176 623 15 784</p>
+                <p style="color: aliceblue;">E-mail: o.rudnev@ebfi.net</p>
+				<button style="margin-left: 1000px; border: none; background-color: blueviolet; font-size: smaller;" onclick="openImpressum()">Impressum</button>
+
+
+			</div>
+
+			<div id="impressum" style="display: none;">
+				<p style="color: aliceblue;">Insteel Engineers GmbH <br>
+                    Falkenseer Chaussee 214a, <br>
+                    13589 Berlin, <br>
                     Germany
                     </p>
-				<p style="color: aliceblue;">Sitz der Gesellschaft: Berlin</p>
+				<p style="color: aliceblue;">Headquartes of the company: Berlin</p>
 				<p style="color: aliceblue;">HR: AG Charlottenburg, HRB 186511 B</p>
 				<p style="color: aliceblue;">USt-ID (VAT): DE 815 207 787</p>	
                 <p style="color: aliceblue;">Phone: +49 176 623 15 784</p>
                 <p style="color: aliceblue;">E-mail: o.rudnev@ebfi.net</p>
-
+				<p style="color: aliceblue;">Managing Director: Oleg Rudniev</p>
+				
 			</div>
+
 		</div>
 	</div>
 </div>
@@ -182,6 +199,20 @@ Depending on the type of equipment, we can offer inspection in the following sco
 <script src="./js/bootstrap.bundle.min.js?8813"></script>
 <script src="./js/blocs.min.js?7040"></script>
 <script src="./js/lazysizes.min.js" defer></script><!-- Additional JS END -->
+<script>
+
+	function openImpressum(){
+
+	const	divImpressum = 	document.getElementById("impressum");
+	if(divImpressum.style.display == "none"){
+		divImpressum.style.display = "block";
+	}else if(divImpressum.style.display == "block"){
+		divImpressum.style.display = "none";
+	}
+
+	}
+
+</script>
 
 
 </body>
